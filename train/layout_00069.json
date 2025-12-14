@@ -1,0 +1,94 @@
+{
+  "id": 69,
+  "split": "train",
+  "layout": [
+    {
+      "category": "underlay",
+      "bbox": [
+        0.455583204848592,
+        0.3432505634178917,
+        0.95,
+        0.7408636767484464
+      ],
+      "level": 0,
+      "area": 0.19658660120306645
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.596949551462331,
+        0.30112482842252364,
+        0.8006192912611472,
+        0.40054607314755364
+      ],
+      "level": 1,
+      "area": 0.020249099043621287
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.5955869276248491,
+        0.16038248711412,
+        0.7716511665952106,
+        0.28158388914719806
+      ],
+      "level": 1,
+      "area": 0.021339232611094713
+    },
+    {
+      "category": "logo",
+      "bbox": [
+        0.7337519119945093,
+        0.6177699105087346,
+        0.8431602229438501,
+        0.7271782214580754
+      ],
+      "level": 2,
+      "area": 0.011970178504787642
+    }
+  ],
+  "relationships": [
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 1,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 2,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 2,
+      "spatial": "below",
+      "size": "similar"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "larger"
+    }
+  ],
+  "num_elements": 4,
+  "counts": {
+    "underlay": 1,
+    "text": 2,
+    "logo": 1
+  }
+}

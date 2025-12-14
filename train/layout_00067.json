@@ -1,0 +1,129 @@
+{
+  "id": 67,
+  "split": "train",
+  "layout": [
+    {
+      "category": "underlay",
+      "bbox": [
+        0.09231624699541986,
+        0.21050193836379416,
+        0.45099902890877436,
+        0.4478465975184025
+      ],
+      "level": 0,
+      "area": 0.08513144261785184
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.5787484957695365,
+        0.3375822835974729,
+        0.8153875006517101,
+        0.4510405253525033
+      ],
+      "level": 1,
+      "area": 0.026848645424591467
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.19477289370120882,
+        0.5175394709012815,
+        0.48203640396226527,
+        0.6208423576258955
+      ],
+      "level": 1,
+      "area": 0.029675149860612895
+    },
+    {
+      "category": "logo",
+      "bbox": [
+        0.5294311970474235,
+        0.3541705156438073,
+        0.6210535989865571,
+        0.445792917582941
+      ],
+      "level": 2,
+      "area": 0.008394664537096162
+    },
+    {
+      "category": "logo",
+      "bbox": [
+        0.2181979446743803,
+        0.45493577270580876,
+        0.36100098854190366,
+        0.597738816573332
+      ],
+      "level": 2,
+      "area": 0.02039270933782979
+    }
+  ],
+  "relationships": [
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 1,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 2,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 2,
+      "spatial": "above",
+      "size": "similar"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 3,
+      "spatial": "right_of",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 3,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 4,
+      "spatial": "near",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 3,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "smaller"
+    }
+  ],
+  "num_elements": 5,
+  "counts": {
+    "underlay": 1,
+    "text": 2,
+    "logo": 2
+  }
+}
