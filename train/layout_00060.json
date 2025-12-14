@@ -1,0 +1,129 @@
+{
+  "id": 60,
+  "split": "train",
+  "layout": [
+    {
+      "category": "underlay",
+      "bbox": [
+        0.30972775247939754,
+        0.4447122986801318,
+        0.6551985639556996,
+        0.6634636828092431
+      ],
+      "level": 0,
+      "area": 0.07557221818664835
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.10559897189625599,
+        0.24800731871297382,
+        0.27960971713944194,
+        0.34416306615495285
+      ],
+      "level": 1,
+      "area": 0.01673213327179434
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.15950685975232953,
+        0.34089658951677293,
+        0.4184761170192803,
+        0.49007758465170925
+      ],
+      "level": 1,
+      "area": 0.038633291508439055
+    },
+    {
+      "category": "logo",
+      "bbox": [
+        0.317650251005288,
+        0.6196436354007565,
+        0.4436794728997496,
+        0.7456728572952181
+      ],
+      "level": 2,
+      "area": 0.01588336477132345
+    },
+    {
+      "category": "logo",
+      "bbox": [
+        0.5304847682387926,
+        0.5815188769159406,
+        0.6675430551524184,
+        0.7185771638295664
+      ],
+      "level": 2,
+      "area": 0.018784974011697757
+    }
+  ],
+  "relationships": [
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 1,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 2,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 2,
+      "spatial": "above",
+      "size": "smaller"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "similar"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "similar"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 3,
+      "elem2_idx": 4,
+      "spatial": "left_of",
+      "size": "similar"
+    }
+  ],
+  "num_elements": 5,
+  "counts": {
+    "underlay": 1,
+    "text": 2,
+    "logo": 2
+  }
+}

@@ -1,0 +1,42 @@
+# HierarchyDiff Base Configuration
+
+model:
+  name: "HierarchicalDiffusion"
+  input_dim: 71
+  hidden_dims: [128, 64, 32]
+  output_dim: 70
+
+training:
+  optimizer: "sgd"
+  learning_rate: 0.001
+  batch_size: 16
+  epochs: 50
+  loss_function: "mse"
+  seed: 42
+  device: "cuda"  # or "cpu"
+
+diffusion:
+  noise_schedule: "uniform"
+  sigma_min: 0.1
+  sigma_max: 0.5
+
+dataset:
+  data_dir: "datasets/layout_dataset"
+  canvas_width: 256
+  canvas_height: 384
+  num_elements: 5
+  hierarchy_levels: 3
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+
+paths:
+  data_dir: "datasets/layout_dataset"
+  output_dir: "outputs"
+  checkpoint_dir: "checkpoints"
+  log_dir: "logs"
+
+logging:
+  log_interval: 10  # Log every N batches
+  save_interval: 5  # Save checkpoint every N epochs
+  visualize: true   # Visualize samples during training
