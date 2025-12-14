@@ -11,6 +11,8 @@ Official PyTorch implementation of "Multi-Scale Hierarchical Diffusion Networks 
 
 This work presents a multi-scale hierarchical architecture for layout generation that achieves state-of-the-art performance through progressive dimensional reduction across three explicit processing levels (128d → 64d → 32d). The proposed method demonstrates 92.5% loss reduction (0.496 to 0.037) over 50 training epochs with only 21,862 parameters, representing a 2.1× reduction compared to existing diffusion-based methods while maintaining superior generation quality.
 
+**Keywords**: Layout generation, Hierarchical neural networks, Diffusion models, Multi-scale learning, Deep learning, Quality assessment, Efficient architecture
+
 ## Key Features
 
 - Multi-scale hierarchical architecture (128d → 64d → 32d)
@@ -88,7 +90,7 @@ hierarchydiff/
 ```bibtex
 @article{hierarchydiff2025,
   title={Multi-Scale Hierarchical Diffusion Networks for Efficient Layout Generation and Quality Assessment: A Deep Learning Approach},
-  author={Anonymous},
+  author={},
   journal={},
   year={2025}
 }
@@ -100,4 +102,4 @@ MIT License - See LICENSE file for details.
 
 ---
 
-**Keywords**: Layout generation, Hierarchical neural networks, Diffusion models, Multi-scale learning, Deep learning, Quality assessment, Efficient architecture
+
