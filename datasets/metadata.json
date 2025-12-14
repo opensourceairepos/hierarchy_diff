@@ -1,0 +1,21 @@
+{
+  "dataset_info": "Hierarchical layout dataset for content-aware generation",
+  "generation_algorithm": "Three-level hierarchical generation (ALGORITHM 1)",
+  "statistics": {
+    "total_samples": 100,
+    "canvas_size": [
+      256,
+      384
+    ],
+    "splits": {
+      "train": 70,
+      "val": 15,
+      "test": 15
+    },
+    "avg_elements_per_layout": 6.0,
+    "avg_underlays": 1.45,
+    "avg_text": 3.01,
+    "avg_logos": 1.54,
+    "total_relationships": 1556
+  }
+}
