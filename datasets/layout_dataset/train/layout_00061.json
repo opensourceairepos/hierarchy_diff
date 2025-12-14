@@ -1,0 +1,129 @@
+{
+  "id": 61,
+  "split": "train",
+  "layout": [
+    {
+      "category": "underlay",
+      "bbox": [
+        0.4811330660537211,
+        0.21557333808593804,
+        0.95,
+        0.45606945011898553
+      ],
+      "level": 0,
+      "area": 0.11276067467493577
+    },
+    {
+      "category": "underlay",
+      "bbox": [
+        0.18752189697059668,
+        0.44449284282269025,
+        0.5856013818720204,
+        0.6742704528891792
+      ],
+      "level": 0,
+      "area": 0.09146975265714812
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.4860191079470706,
+        0.5682398656883647,
+        0.6547262164837792,
+        0.6567774539931008
+      ],
+      "level": 1,
+      "area": 0.014936920519705537
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.4978252027002953,
+        0.10112793011494639,
+        0.6804065673539769,
+        0.16491022003086991
+      ],
+      "level": 1,
+      "area": 0.01164545753358607
+    },
+    {
+      "category": "logo",
+      "bbox": [
+        0.5337125362218885,
+        0.34884510730895024,
+        0.6139378146741881,
+        0.4290703857612498
+      ],
+      "level": 2,
+      "area": 0.006436095302748997
+    }
+  ],
+  "relationships": [
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 1,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 2,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 3,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 2,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 3,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 4,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 3,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 4,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 3,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "larger"
+    }
+  ],
+  "num_elements": 5,
+  "counts": {
+    "underlay": 2,
+    "text": 2,
+    "logo": 1
+  }
+}
