@@ -33,7 +33,7 @@ This work presents a novel multi-scale hierarchical architecture for layout gene
 
 ```bash
 # Clone repository
-git clone https://github.com/anonymous/hierarchydiff.git
+git clone https://github.com/opensourceairepos/hierrarach_diff
 cd hierarchydiff
 
 # Create environment
@@ -89,7 +89,7 @@ hierarchydiff/
 @article{hierarchydiff2025,
   title={Multi-Scale Hierarchical Diffusion Networks for Efficient Layout Generation and Quality Assessment: A Deep Learning Approach},
   author={Anonymous},
-  journal={European Journal of Science, Innovation and Technology},
+  journal={},
   year={2025}
 }
 ```
