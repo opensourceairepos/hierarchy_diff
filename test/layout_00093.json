@@ -1,0 +1,217 @@
+{
+  "id": 93,
+  "split": "test",
+  "layout": [
+    {
+      "category": "underlay",
+      "bbox": [
+        0.06467807675370493,
+        0.07596631778715449,
+        0.5553111704515618,
+        0.29411065823414073
+      ],
+      "level": 0,
+      "area": 0.10702883262618337
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.5725294515152676,
+        0.25060082995738014,
+        0.8090978394210157,
+        0.33631294588743044
+      ],
+      "level": 1,
+      "area": 0.020276777089562586
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.4939786442247257,
+        0.24423934773610415,
+        0.7285897485497533,
+        0.3300971938885915
+      ],
+      "level": 1,
+      "area": 0.02014320410080338
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.16108220976972215,
+        0.403574744640959,
+        0.33982115162994597,
+        0.5453986533085027
+      ],
+      "level": 1,
+      "area": 0.025349455365717782
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.12161129097485585,
+        0.2051330632634964,
+        0.3047392084193072,
+        0.2590260595960632
+      ],
+      "level": 1,
+      "area": 0.009869312183224408
+    },
+    {
+      "category": "logo",
+      "bbox": [
+        0.2574231517711387,
+        0.4019664541418523,
+        0.38499164667051233,
+        0.5295349490412259
+      ],
+      "level": 2,
+      "area": 0.016273720890891512
+    },
+    {
+      "category": "logo",
+      "bbox": [
+        0.49432724942313266,
+        0.3992512819296782,
+        0.6246684422092526,
+        0.5295924747157981
+      ],
+      "level": 2,
+      "area": 0.01698882653690847
+    }
+  ],
+  "relationships": [
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 1,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 2,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 4,
+      "spatial": "right_of",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 5,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 6,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 2,
+      "spatial": "right_of",
+      "size": "similar"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "smaller"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 4,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 5,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 6,
+      "spatial": "above",
+      "size": "similar"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "smaller"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 4,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 5,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 6,
+      "spatial": "above",
+      "size": "similar"
+    },
+    {
+      "elem1_idx": 3,
+      "elem2_idx": 4,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 3,
+      "elem2_idx": 5,
+      "spatial": "left_of",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 3,
+      "elem2_idx": 6,
+      "spatial": "left_of",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 4,
+      "elem2_idx": 5,
+      "spatial": "above",
+      "size": "smaller"
+    },
+    {
+      "elem1_idx": 4,
+      "elem2_idx": 6,
+      "spatial": "above",
+      "size": "smaller"
+    },
+    {
+      "elem1_idx": 5,
+      "elem2_idx": 6,
+      "spatial": "left_of",
+      "size": "similar"
+    }
+  ],
+  "num_elements": 7,
+  "counts": {
+    "underlay": 1,
+    "text": 4,
+    "logo": 2
+  }
+}

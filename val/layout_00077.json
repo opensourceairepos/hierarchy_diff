@@ -1,0 +1,217 @@
+{
+  "id": 77,
+  "split": "val",
+  "layout": [
+    {
+      "category": "underlay",
+      "bbox": [
+        0.08608100633685656,
+        0.20964708132619292,
+        0.6114344206793819,
+        0.42384861423284403
+      ],
+      "level": 0,
+      "area": 0.11253150666991196
+    },
+    {
+      "category": "underlay",
+      "bbox": [
+        0.35540148050265413,
+        0.21286399587703925,
+        0.9379191939883316,
+        0.546578525221622
+      ],
+      "level": 0,
+      "area": 0.19439462459075532
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.18332279583791022,
+        0.16944256400722324,
+        0.42312665618577483,
+        0.2696579250034219
+      ],
+      "level": 1,
+      "area": 0.02403203043304326
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.4827262555981804,
+        0.5445887501647471,
+        0.6558744903906423,
+        0.6117735982974565
+      ],
+      "level": 1,
+      "area": 0.011632937858978265
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.6947579360401799,
+        0.5920075774716136,
+        0.9,
+        0.7249093507261627
+      ],
+      "level": 1,
+      "area": 0.027277034246683683
+    },
+    {
+      "category": "text",
+      "bbox": [
+        0.3693118430048249,
+        0.1506354283267254,
+        0.6235441990562187,
+        0.2538846982704401
+      ],
+      "level": 1,
+      "area": 0.02624930515837694
+    },
+    {
+      "category": "logo",
+      "bbox": [
+        0.18610230658662197,
+        0.4910496775152978,
+        0.26916404164824825,
+        0.5741114125769241
+      ],
+      "level": 2,
+      "area": 0.006899251831447797
+    }
+  ],
+  "relationships": [
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 1,
+      "spatial": "above",
+      "size": "smaller"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 2,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 5,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 0,
+      "elem2_idx": 6,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 2,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 5,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 1,
+      "elem2_idx": 6,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 3,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "similar"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 5,
+      "spatial": "left_of",
+      "size": "similar"
+    },
+    {
+      "elem1_idx": 2,
+      "elem2_idx": 6,
+      "spatial": "above",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 3,
+      "elem2_idx": 4,
+      "spatial": "above",
+      "size": "smaller"
+    },
+    {
+      "elem1_idx": 3,
+      "elem2_idx": 5,
+      "spatial": "below",
+      "size": "smaller"
+    },
+    {
+      "elem1_idx": 3,
+      "elem2_idx": 6,
+      "spatial": "right_of",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 4,
+      "elem2_idx": 5,
+      "spatial": "below",
+      "size": "similar"
+    },
+    {
+      "elem1_idx": 4,
+      "elem2_idx": 6,
+      "spatial": "below",
+      "size": "larger"
+    },
+    {
+      "elem1_idx": 5,
+      "elem2_idx": 6,
+      "spatial": "above",
+      "size": "larger"
+    }
+  ],
+  "num_elements": 7,
+  "counts": {
+    "underlay": 2,
+    "text": 4,
+    "logo": 1
+  }
+}
