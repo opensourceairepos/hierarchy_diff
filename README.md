@@ -5,7 +5,7 @@
 [![PyTorch 1.12+](https://img.shields.io/badge/PyTorch-1.12+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official PyTorch implementation of "Multi-Scale Hierarchical Diffusion Networks for Efficient Layout Generation and Quality Assessment: A Deep Learning Approach"
+Official PyTorch implementation of "Hierarchical Diffusion Networks for Layout Generation with Progressive Dimensional Reduction"
 
 ## Abstract
 
@@ -89,7 +89,7 @@ hierarchydiff/
 
 ```bibtex
 @article{hierarchydiff2025,
-  title={Multi-Scale Hierarchical Diffusion Networks for Efficient Layout Generation and Quality Assessment: A Deep Learning Approach},
+  title={Hierarchical Diffusion Networks for Layout Generation with Progressive Dimensional Reduction},
   author={},
   journal={},
   year={2025}
